@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Encriptador-Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/icon.png">
+
+    </head>
+
+    <body>
+
+        <img src="Logo.png" id="logo">
+
+        <main>
+
+            <section id="seccion-msj-entrada">
+
+                <div id="div-msj-entrada">
+
+                    <textarea type="text" id="" class="msj-entrada" placeholder="Ingrese el texto aquí"></textarea>
+
+                    <legend><img src="Vector.png">letras minúsculas y sin acentos</legend>
+                    
+                    <section id="botones">
+
+                        <button class="btn-encriptar" onclick="botonEncriptar()">Encriptar</button>
+
+                        <button class="btn-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+
+                    </section>
+                    
+                </div>
+
+            </section>
+
+            <section id="box-msj-salida">
+
+                <div id="msj-salida">
+
+                    <textarea class="msj-salida"></textarea>
+
+                    <button class="btn-copiar" onclick="botonCopiar()">Copiar</button>
+
+                </div>
+
+                <div id="msj-vacio">
+                    
+                    <img src="Muñeco.png" id="munieco">
+
+                    <div class="texto-box-msj-salida">
+
+                        <h3>Ningún mensaje fue encontrado</h3>
+
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                        
+                    </div>
+
+                </div>
+                
+            </section>
+
+        </main>
+        <footer>
+
+            <img src="DaniRox.png" id="mi-logo">
+
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+    
+</html>
