@@ -29,7 +29,6 @@ main {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     color: #0a3871;
-    text-transform: lowercase;
     width: 90%;
     height: 300px;
     margin: 30px 0 0 0;
@@ -128,7 +127,6 @@ legend img {
     border: none;
     resize: none;
     display: flex;
-    text-transform: lowercase;
 }
 
 .msj-salida::before {
