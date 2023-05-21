@@ -45,7 +45,7 @@ function encriptarMensaje(str){
     boxMsj.style.display = "none";
     msjVacio.style.display = "flex";
   }for(let i = 0; i < str.length; i ++){
-    if(!/^[a-z\s]*$/.test(str)){
+    if(!/^[a-zA-Z\s]*$/.test(str)){
         alert("solo letras minúsculas y sin acentos");
         msjIn.value = "";
         mjsOut.value = txtDesencriptado;
