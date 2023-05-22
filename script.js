@@ -52,11 +52,11 @@ function encriptarMensaje(str){
         boxMsj.style.display = "none";
         msjVacio.style.display = "flex";
       }else {
-        if(str.includes("e")){str = str.replaceAll("e", "enter")}
-        if(str.includes("i")){str = str.replaceAll("i", "imes")}
-        if(str.includes("a")){str = str.replaceAll("a", "ai")}
-        if(str.includes("o")){str = str.replaceAll("o", "ober")}
         if(str.includes("u")){str = str.replaceAll("u", "ufat")}
+        if(str.includes("o")){str = str.replaceAll("o", "ober")}
+        if(str.includes("a")){str = str.replaceAll("a", "ai")}
+        if(str.includes("i")){str = str.replaceAll("i", "imes")}
+        if(str.includes("e")){str = str.replaceAll("e", "enter")}
         return str;
       }
   }
