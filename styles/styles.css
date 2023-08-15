@@ -136,4 +136,14 @@ html body main .title {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   width: 47%;
+}
+
+footer .icons-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .icons-footer .icon {
+  height: 2.2rem;
+  margin: 1rem;
 }/*# sourceMappingURL=styles.css.map */
