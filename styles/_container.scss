@@ -1,0 +1,8 @@
+@use "media-queries";
+
+@use "globals";
+
+.container{
+    display: flex;
+    flex-direction: column;
+}

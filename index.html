@@ -1,81 +1,59 @@
 <!DOCTYPE html>
-
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" href="assets/icon.png">
+    <title>Encriptador de texto</title>
+</head>
+<body>
 
-    <head>
+    <main>
 
-        <meta charset="UTF-8">
-        <title>Encriptador-Alura</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/icon.png">
+        <img src="assets/icon.png" alt="logo Alura Latam" class="logo-alura">
 
-    </head>
+        <h1 class="title">ENCRIPTADOR DE TEXTO</h1>
 
-    <body>
+        <div class="container">
 
-        <img src="Logo.png" id="logo">
+            <fieldset class="input-message">
 
-        <main>
-
-            <section id="seccion-msj-entrada">
-
-                <div id="div-msj-entrada">
-
-                    <textarea type="text" id="" class="msj-entrada" placeholder="Ingrese el texto aquí"></textarea>
-
-                    <legend><img src="Vector.png">letras minúsculas y sin acentos</legend>
-                    
-                    <section id="botones">
-
-                        <button class="btn-encriptar" onclick="botonEncriptar()">Encriptar</button>
-
-                        <button class="btn-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
-
-                    </section>
-                    
-                </div>
-
-            </section>
-
-            <section id="box-msj-salida">
-
-                <div id="msj-salida">
-
-                    <textarea class="msj-salida"></textarea>
-
-                    <button class="btn-copiar" onclick="botonCopiar()">Copiar</button>
-
-                </div>
-
-                <div id="msj-vacio">
-                    
-                    <img src="Muñeco.png" id="munieco">
-
-                    <div class="texto-box-msj-salida">
-
-                        <h3>Ningún mensaje fue encontrado</h3>
-
-                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-                        
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <span><img src="/assets/exclamation.png" class="exclamation-icon">  letras minúsculas y sin acentos</span>
+                    <button class="btn">pegar</button>
+                    <div class="buttons">
+                        <button class="btn-m">encriptar</button>
+                        <button class="btn-m">desencriptar</button>   
                     </div>
+                    
 
-                </div>
-                
-            </section>
+            </fieldset>
 
-        </main>
-        <footer>
+            <fieldset class="output-message">
 
-            <img src="DaniRox.png" id="mi-logo">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="btn">copiar</button>
+                <img src="" alt="">
 
-        </footer>
+            </fieldset>
 
-        <script src="script.js"></script>
+        </div>
 
-    </body>
-    
+    </main>
+
+    <footer>
+
+        <div class="icons">
+
+        </div>
+
+
+    </footer>
+
+</body>
 </html>

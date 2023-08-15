@@ -1,0 +1,34 @@
+@use "media-queries";
+
+@use "globals";
+
+.input-message{
+    font-family: globals.$darker;
+    width: 19rem;
+    height: 27rem;
+    background-color: globals.$white;
+    border-radius: 0.8rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    textarea{
+        height: 14rem;
+        margin: 1.5rem 1.5rem 0.5rem;
+        background-color: globals.$non-photo-blue;
+        border: none;
+        border-radius: 0.8rem;
+        resize: none;
+    }
+
+    span{
+        font-family: globals.$darker;
+        font-size: 1.2rem;
+        margin: 0.6rem 1.5rem;
+
+        .exclamation-icon{
+            width: 1rem;
+            margin-bottom: -0.2rem;
+        }
+    }
+}

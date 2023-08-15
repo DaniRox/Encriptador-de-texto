@@ -1,0 +1,21 @@
+@use "media-queries";
+
+@use "globals";
+
+.output-message{
+    width: 19rem;
+    height: 21rem;
+    background-color: globals.$white;
+    border-radius: 0.8rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    textarea{
+        margin: 1.5rem;
+        background-color: globals.$non-photo-blue;
+        border: none;
+        border-radius: 0.8rem;
+        resize: none;
+    }
+}

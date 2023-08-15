@@ -1,0 +1,60 @@
+@use "media-queries";
+
+$darker: 'Darker Grotesque', sans-serif;
+$spicy:'Spicy Rice', cursiva;
+
+$black: #000000;
+$white: #ffffff;
+$gold: #FED403;
+$non-photo-blue: #98DBEE;
+
+
+html{
+    font-size: 16px;
+
+    @include media-queries.tablet {
+        font-size: 18px;
+    }
+
+    @include media-queries.desktop-s {
+        font-size: 20px;
+    }
+
+    @include media-queries.desktop {
+        font-size: 22px;
+    }
+
+    body{
+        width: 100vw;
+        display: flex;
+        background-image: url("/assets/background.jpg");
+        background-color: $gold;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+        main{
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+
+            .logo-alura{
+                width: 2rem;
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+            
+            }
+
+            .title{
+                font-family: $spicy;
+                font-size: 2rem;
+                color: $black;
+                text-align: center;
+            }
+        }
+    }
+}

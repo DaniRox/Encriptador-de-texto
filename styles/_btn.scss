@@ -1,0 +1,31 @@
+@use "media-queries";
+
+@use "globals";
+
+@mixin button{
+    height: 3rem;
+    background-color: globals.$gold;
+    border-radius: 0.8rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: globals.$black;
+    font-family: globals.$darker;
+}
+
+.btn{
+    @include button;
+    margin: 0.4rem 1.5rem;
+}
+
+.buttons{
+    margin: 0.4rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .btn-m{
+        @include button;
+        width: 47%;
+    }
+}
