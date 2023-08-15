@@ -20,14 +20,11 @@ html{
         font-size: 18px;
     }
 
-    @include media-queries.desktop {
-        font-size: 20px;
-    }
 
     body{
         width: 100vw;
         display: flex;
-        background-image: url("/assets/background.jpg");
+        background-image: url("../assets/background.jpg");
         background-color: $gold;
         height: 170vh;
         background-position: center;

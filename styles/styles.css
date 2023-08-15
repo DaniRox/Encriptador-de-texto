@@ -12,15 +12,10 @@ html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 20px;
-  }
-}
 html body {
   width: 100vw;
   display: flex;
-  background-image: url("/assets/background.jpg");
+  background-image: url("../assets/background.jpg");
   background-color: #FED403;
   height: 170vh;
   background-position: center;
