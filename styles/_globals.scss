@@ -46,13 +46,12 @@ html{
             }
 
             .logo-alura{
-                width: 1.5rem;
+                width: 2.5rem;
                 position: absolute;
                 top: 1rem;
                 left: 1rem;
             
                 @include media-queries.desktop-s {
-                    width: 2.5rem;
                     top: 2rem;
                     left: 2rem;
                 }
