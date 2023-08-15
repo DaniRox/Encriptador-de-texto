@@ -22,7 +22,7 @@ html body {
   display: flex;
   background-image: url("/assets/background.jpg");
   background-color: #FED403;
-  height: 130vh;
+  height: 170vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,7 @@ html body main {
   flex-direction: column;
 }
 html body main .logo-alura {
-  width: 2rem;
+  width: 2.5rem;
   position: absolute;
   top: 2rem;
   left: 2rem;
