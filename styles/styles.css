@@ -1,19 +1,20 @@
+@charset "UTF-8";
 html {
   font-size: 16px;
 }
 @media screen and (min-width: 480px) {
   html {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 @media screen and (min-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1024px) {
   html {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 html body {
@@ -50,6 +51,11 @@ html body main .title {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+}
 
 .input-message {
   font-family: "Darker Grotesque", sans-serif;
@@ -80,8 +86,9 @@ html body main .title {
 }
 
 .output-message {
+  font-family: "Darker Grotesque", sans-serif;
   width: 19rem;
-  height: 21rem;
+  height: 27rem;
   background-color: #ffffff;
   border-radius: 0.8rem;
   margin: 2rem;
@@ -89,7 +96,11 @@ html body main .title {
   flex-direction: column;
 }
 .output-message textarea {
-  margin: 1.5rem;
+  height: 19rem;
+  margin: 1.5rem 1.5rem 0.5rem;
+  background-image: url(/assets/Muñeco.png);
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #98DBEE;
   border: none;
   border-radius: 0.8rem;

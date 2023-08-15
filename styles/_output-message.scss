@@ -3,8 +3,9 @@
 @use "globals";
 
 .output-message{
+    font-family: globals.$darker;
     width: 19rem;
-    height: 21rem;
+    height: 27rem;
     background-color: globals.$white;
     border-radius: 0.8rem;
     margin: 2rem;
@@ -12,10 +13,16 @@
     flex-direction: column;
 
     textarea{
-        margin: 1.5rem;
+        height: 19rem;
+        margin: 1.5rem 1.5rem 0.5rem;
+        background-image: url(/assets/Muñeco.png);
+        background-position: center;
+        background-repeat: no-repeat;
         background-color: globals.$non-photo-blue;
         border: none;
         border-radius: 0.8rem;
         resize: none;
     }
+
+
 }

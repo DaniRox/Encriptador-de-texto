@@ -5,4 +5,8 @@
 .container{
     display: flex;
     flex-direction: column;
+
+    @include media-queries.desktop {
+        flex-direction: row;
+    }
 }
