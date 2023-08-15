@@ -12,13 +12,10 @@ $non-photo-blue: #98DBEE;
 html{
     font-size: 16px;
 
-    @include media-queries.tablet {
+    @include media-queries.desktop-s {
         font-size: 17px;
     }
 
-    @include media-queries.desktop-s {
-        font-size: 18px;
-    }
 
 
     body{
