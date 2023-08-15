@@ -76,7 +76,7 @@ html body main .title {
   display: flex;
   flex-direction: column;
 }
-.input-message textarea {
+.input-message .msg-in {
   height: 14rem;
   margin: 1.5rem 1.5rem 0.5rem;
   background-color: #98DBEE;
@@ -84,9 +84,23 @@ html body main .title {
   border-radius: 0.8rem;
   resize: none;
 }
+.input-message .msg-in::-moz-placeholder {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.input-message .msg-in::placeholder {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.input-message .msg-in:focus-visible {
+  outline: none;
+}
 .input-message span {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 1.2rem;
+  font-weight: 500;
   margin: 0.6rem 1.5rem;
 }
 .input-message span .exclamation-icon {
@@ -95,7 +109,6 @@ html body main .title {
 }
 
 .output-message {
-  font-family: "Darker Grotesque", sans-serif;
   width: 19rem;
   height: 27rem;
   background-color: #ffffff;
@@ -104,16 +117,29 @@ html body main .title {
   display: flex;
   flex-direction: column;
 }
-.output-message textarea {
+.output-message .msg-out {
   height: 19rem;
   margin: 1.5rem 1.5rem 0.5rem;
-  background-image: url(./assets/Muñeco.png);
+  background-image: url(../assets/Muñeco.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #98DBEE;
   border: none;
   border-radius: 0.8rem;
   resize: none;
+}
+.output-message .msg-out::-moz-placeholder {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.output-message .msg-out::placeholder {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.output-message .msg-out:focus-visible {
+  outline: none;
 }
 
 .btn {

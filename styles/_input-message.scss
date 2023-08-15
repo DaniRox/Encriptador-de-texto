@@ -12,18 +12,31 @@
     display: flex;
     flex-direction: column;
 
-    textarea{
+    .msg-in{
         height: 14rem;
         margin: 1.5rem 1.5rem 0.5rem;
         background-color: globals.$non-photo-blue;
         border: none;
         border-radius: 0.8rem;
         resize: none;
+
+        
+    }
+
+    .msg-in::placeholder{
+        font-family: globals.$darker;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .msg-in:focus-visible{
+        outline: none;
     }
 
     span{
         font-family: globals.$darker;
         font-size: 1.2rem;
+        font-weight: 500;
         margin: 0.6rem 1.5rem;
 
         .exclamation-icon{

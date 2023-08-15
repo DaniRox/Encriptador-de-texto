@@ -3,7 +3,6 @@
 @use "globals";
 
 .output-message{
-    font-family: globals.$darker;
     width: 19rem;
     height: 27rem;
     background-color: globals.$white;
@@ -12,10 +11,10 @@
     display: flex;
     flex-direction: column;
 
-    textarea{
+    .msg-out{
         height: 19rem;
         margin: 1.5rem 1.5rem 0.5rem;
-        background-image: url(./assets/Muñeco.png);
+        background-image: url(../assets/Muñeco.png);
         background-position: center;
         background-repeat: no-repeat;
         background-color: globals.$non-photo-blue;
@@ -24,5 +23,14 @@
         resize: none;
     }
 
+    .msg-out::placeholder{
+        font-family: globals.$darker;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .msg-out:focus-visible{
+        outline: none;
+    }
 
 }
