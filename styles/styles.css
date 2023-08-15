@@ -30,9 +30,21 @@ html body {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (min-width: 1024px) {
+  html body {
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+}
 html body main {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  html body main {
+    margin-top: 4rem;
+  }
 }
 html body main .logo-alura {
   width: 2.5rem;
