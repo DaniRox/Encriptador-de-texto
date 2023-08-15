@@ -27,12 +27,12 @@ html{
         background-image: url("../assets/background.jpg");
         background-color: $gold;
         height: 170vh;
+        margin-top: 4rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
-        justify-content: center;
 
         @include media-queries.desktop {
             align-items: center;
@@ -51,9 +51,13 @@ html{
             .logo-alura{
                 width: 2.5rem;
                 position: absolute;
-                top: 2rem;
-                left: 2rem;
+                top: 1rem;
+                left: 1rem;
             
+                @include media-queries.desktop-s {
+                    top: 2rem;
+                    left: 2rem;
+                }
             }
 
             .title{
