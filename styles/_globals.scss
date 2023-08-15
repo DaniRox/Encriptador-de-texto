@@ -34,10 +34,10 @@ html{
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
+        flex-direction: column;
         justify-content: center;
 
         main{
-            margin-top: 5rem;
             display: flex;
             flex-direction: column;
 

@@ -27,10 +27,10 @@ html body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 html body main {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
 }
@@ -50,6 +50,7 @@ html body main .title {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 @media screen and (min-width: 1024px) {
   .container {
