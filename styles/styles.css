@@ -12,7 +12,7 @@ html body {
   display: flex;
   background-image: url("../assets/background.jpg");
   background-color: #FED403;
-  height: 170vh;
+  height: 70rem;
   margin-top: 4rem;
   background-position: center;
   background-repeat: no-repeat;
