@@ -4,7 +4,7 @@
 
 .input-message{
     font-family: globals.$darker;
-    width: 19rem;
+    width: 22rem;
     height: 27rem;
     background-color: globals.$white;
     border-radius: 0.8rem;
@@ -13,7 +13,8 @@
     flex-direction: column;
 
     .msg-in{
-        height: 14rem;
+        height: 12rem;
+        padding: 1rem;
         margin: 1.5rem 1.5rem 0.5rem;
         background-color: globals.$non-photo-blue;
         border: none;
