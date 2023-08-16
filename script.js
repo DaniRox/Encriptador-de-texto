@@ -15,6 +15,7 @@ function botonEncriptar(){
 
 function encriptarMensaje(str){
   let numeros = /[0-9]/g;
+  str = str.toLowerCase();
   if(str === ""){
     alert("ingrese texto para encriptar");
     msgOut.value = txtDesencriptado;

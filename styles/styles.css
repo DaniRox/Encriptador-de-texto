@@ -1,10 +1,5 @@
 html {
-  font-size: 18px;
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 17px;
-  }
+  font-size: 17px;
 }
 html body {
   width: 100vw;
@@ -54,6 +49,16 @@ html body main .title {
   color: #000000;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  html body main .title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html body main .title {
+    font-size: 2.8rem;
+  }
+}
 
 .container {
   display: flex;
@@ -77,6 +82,12 @@ html body main .title {
   flex-direction: column;
   box-shadow: 0px 0px 10px 5px rgba(191, 191, 191, 0.64) inset, 0px 0px 21px 3px rgba(74, 74, 74, 0.68);
 }
+@media screen and (min-width: 1024px) {
+  .input-message {
+    width: 25rem;
+    height: 24rem;
+  }
+}
 .input-message .msg-in {
   height: 12rem;
   padding: 1rem;
@@ -90,6 +101,11 @@ html body main .title {
   font-size: 1.5rem;
   font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
+}
+@media screen and (min-width: 1024px) {
+  .input-message .msg-in {
+    height: 9rem;
+  }
 }
 .input-message .msg-in::-moz-placeholder {
   color: #000000;
@@ -131,6 +147,12 @@ html body main .title {
   font-weight: 300;
   box-shadow: 0px 0px 10px 5px rgba(191, 191, 191, 0.64) inset, 0px 0px 21px 3px rgba(74, 74, 74, 0.68);
 }
+@media screen and (min-width: 1024px) {
+  .output-message {
+    width: 25rem;
+    height: 24rem;
+  }
+}
 .output-message .msg-out {
   height: 18rem;
   padding: 1rem;
@@ -143,6 +165,11 @@ html body main .title {
   font-size: 1.5rem;
   font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
+}
+@media screen and (min-width: 1024px) {
+  .output-message .msg-out {
+    height: 15.4rem;
+  }
 }
 .output-message .msg-out::-moz-placeholder {
   font-family: "Darker Grotesque", sans-serif;
@@ -164,6 +191,11 @@ html body main .title {
   display: flex;
   position: absolute;
 }
+@media screen and (min-width: 1024px) {
+  .output-message .img-munieco {
+    margin-left: 4rem;
+  }
+}
 
 .btn {
   height: 3rem;
@@ -175,6 +207,7 @@ html body main .title {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
+  cursor: pointer;
   margin: 0.4rem 1.5rem;
 }
 .btn:hover {
@@ -201,6 +234,7 @@ html body main .title {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
+  cursor: pointer;
   width: 47%;
 }
 .buttons .btn-m:hover {
@@ -219,4 +253,13 @@ footer .icons-footer {
 footer .icons-footer .icon {
   height: 1.8rem;
   margin: 1rem;
+}
+footer .txt {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+footer .txt .txt-mention {
+  font-family: "Elsie", cursive;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=styles.css.map */

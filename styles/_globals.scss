@@ -2,6 +2,7 @@
 
 $darker: 'Darker Grotesque', sans-serif;
 $spicy:'Spicy Rice', cursiva;
+$elsie: 'Elsie', cursive;
 
 $black: #000000;
 $white: #ffffff;
@@ -10,13 +11,7 @@ $non-photo-blue: #98DBEE;
 
 
 html{
-    font-size: 18px;
-
-    @include media-queries.desktop-s {
-        font-size: 17px;
-    }
-
-
+    font-size: 17px;
 
     body{
         width: 100vw;
@@ -63,6 +58,14 @@ html{
                 font-size: 2rem;
                 color: $black;
                 text-align: center;
+
+                @include media-queries.desktop-s {
+                    font-size: 2.5rem;
+                }
+
+                @include media-queries.desktop {
+                    font-size: 2.8rem;
+                }
             }
         }
     }
