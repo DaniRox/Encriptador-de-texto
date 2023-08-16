@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media screen and (min-width: 768px) {
   html {
@@ -88,7 +88,7 @@ html body main .title {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .input-message .msg-in::-moz-placeholder {
@@ -142,6 +142,9 @@ html body main .title {
   border: none;
   border-radius: 0.8rem;
   resize: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .output-message .msg-out::-moz-placeholder {
