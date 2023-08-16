@@ -22,6 +22,7 @@ html body {
 }
 @media screen and (min-width: 1024px) {
   html body {
+    margin-top: 0rem;
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
@@ -33,7 +34,7 @@ html body main {
 }
 @media screen and (min-width: 1024px) {
   html body main {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
 html body main .logo-alura {
@@ -44,7 +45,7 @@ html body main .logo-alura {
 }
 @media screen and (min-width: 768px) {
   html body main .logo-alura {
-    top: 2rem;
+    top: 1rem;
     left: 2rem;
   }
 }
