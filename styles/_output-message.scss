@@ -10,6 +10,10 @@
     margin: 2rem;
     display: flex;
     flex-direction: column;
+    color: globals.$black;
+    font-family: globals.$darker;
+    font-size: 1.3rem;
+    font-weight: 300;
 
     .msg-out{
         height: 18rem;

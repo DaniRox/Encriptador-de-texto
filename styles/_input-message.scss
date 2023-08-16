@@ -20,13 +20,16 @@
         border: none;
         border-radius: 0.8rem;
         resize: none;
-
-        
+        color: globals.$black;
+        font-family: globals.$darker;
+        font-size: 1.3rem;
+        font-weight: 300;
     }
 
     .msg-in::placeholder{
+        color: globals.$black;
         font-family: globals.$darker;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 300;
     }
 

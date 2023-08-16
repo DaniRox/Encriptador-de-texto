@@ -84,15 +84,21 @@ html body main .title {
   border: none;
   border-radius: 0.8rem;
   resize: none;
+  color: #000000;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 .input-message .msg-in::-moz-placeholder {
+  color: #000000;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .input-message .msg-in::placeholder {
+  color: #000000;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .input-message .msg-in:focus-visible {
@@ -117,6 +123,10 @@ html body main .title {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  color: #000000;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 .output-message .msg-out {
   height: 18rem;
