@@ -75,6 +75,7 @@ html body main .title {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 0px 10px 5px rgba(191, 191, 191, 0.64) inset, 0px 0px 21px 3px rgba(74, 74, 74, 0.68);
 }
 .input-message .msg-in {
   height: 12rem;
@@ -88,6 +89,7 @@ html body main .title {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
+  box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .input-message .msg-in::-moz-placeholder {
   color: #000000;
@@ -127,6 +129,7 @@ html body main .title {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
+  box-shadow: 0px 0px 10px 5px rgba(191, 191, 191, 0.64) inset, 0px 0px 21px 3px rgba(74, 74, 74, 0.68);
 }
 .output-message .msg-out {
   height: 18rem;
@@ -139,6 +142,7 @@ html body main .title {
   border: none;
   border-radius: 0.8rem;
   resize: none;
+  box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .output-message .msg-out::-moz-placeholder {
   font-family: "Darker Grotesque", sans-serif;
@@ -163,7 +167,15 @@ html body main .title {
   font-weight: 700;
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
+  box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
   margin: 0.4rem 1.5rem;
+}
+.btn:hover {
+  background-color: rgb(221, 188, 25);
+}
+.btn:active {
+  background-color: rgb(182, 156, 31);
+  box-shadow: 0px 0px 8px 2px rgb(108, 95, 26) inset;
 }
 
 .buttons {
@@ -181,7 +193,15 @@ html body main .title {
   font-weight: 700;
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
+  box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
   width: 47%;
+}
+.buttons .btn-m:hover {
+  background-color: rgb(221, 188, 25);
+}
+.buttons .btn-m:active {
+  background-color: rgb(182, 156, 31);
+  box-shadow: 0px 0px 8px 2px rgb(108, 95, 26) inset;
 }
 
 footer .icons-footer {
@@ -190,6 +210,6 @@ footer .icons-footer {
   justify-content: center;
 }
 footer .icons-footer .icon {
-  height: 2.2rem;
+  height: 1.8rem;
   margin: 1rem;
 }/*# sourceMappingURL=styles.css.map */
