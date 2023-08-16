@@ -15,23 +15,17 @@ function encriptarMensaje(str){
   if(str === ""){
     alert("ingrese texto para encriptar");
     msgOut.value = txtDesencriptado;
-    /*boxMsj.style.display = "none";
-    msjVacio.style.display = "flex";*/
     msgIn.value = "";
   }  
   if(/[0-9]/g.test(str)){
     alert("solo letras minúsculas y sin acentos");
     msgIn.value = "";
     msgOut.value = txtDesencriptado;
-    /*boxMsj.style.display = "none";
-    msjVacio.style.display = "flex";*/
   }for(let i = 0; i < str.length; i ++){
     if(!/^[a-zA-Z\s]*$/.test(str)){
         alert("solo letras minúsculas y sin acentos");
         msgIn.value = "";
         msgOut.value = txtDesencriptado;
-        /*boxMsj.style.display = "none";
-        msjVacio.style.display = "flex";*/
       }else {
         if(str.includes("e")){str = str.replaceAll("e", "enter")}
         if(str.includes("i")){str = str.replaceAll("i", "imes")}
@@ -61,8 +55,6 @@ function botonDesencriptar(){
   const txtDesencriptado = desencriptarMensaje(msgIn.value);
   msgOut.value = txtDesencriptado;
   msgOut.style.display = "flex";
-  /*mjsOut.style.height = "180px";
-  msjVacio.style.display = "none";*/
   msgIn.value = "";
 }
 
@@ -71,8 +63,6 @@ function desencriptarMensaje(strEncriptado){
     alert("solo letras minúsculas y sin acentos");
     msgIn.value = "";
     msgOut.value = txtDesencriptado;
-    /*boxMsj.style.display = "none";
-    msjVacio.style.display = "flex";*/
   }
   for(let i = 0; i < strEncriptado.length; i ++){
     if(strEncriptado.includes("ufat")){strEncriptado = strEncriptado.replaceAll("ufat", "u")}
