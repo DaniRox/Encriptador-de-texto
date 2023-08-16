@@ -3,10 +3,6 @@ const msgIn = document.querySelector(".msg-in");
 
 const msgOut = document.querySelector(".msg-out");
 
-const msjVacio = document.querySelector("#msj-vacio");
-
-const boxMsj = document.querySelector("#msj-salida");
-
 
 function botonEncriptar(){
   const txtEncriptado = encriptarMensaje(msgIn.value);
@@ -51,6 +47,14 @@ function botonCopiar() {
   let contenido = document.querySelector(".msg-out");
   contenido.select();
   document.execCommand("copy");
+  msgOut.value = "";
+}
+
+function botonPegar() {
+    navigator.clipboard.readText()
+  .then(text => {
+    (document.querySelector(".msg-in").value = text)
+    })
 }
 
 function botonDesencriptar(){
