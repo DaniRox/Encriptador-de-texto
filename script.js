@@ -3,10 +3,13 @@ const msgIn = document.querySelector(".msg-in");
 
 const msgOut = document.querySelector(".msg-out");
 
+const ilustration = document.querySelector(".img-munieco");
+
 
 function botonEncriptar(){
   const txtEncriptado = encriptarMensaje(msgIn.value);
   msgOut.value = txtEncriptado;
+  ilustration.style.display = "none";
   msgIn.value = "";
 }
 
@@ -15,17 +18,20 @@ function encriptarMensaje(str){
   if(str === ""){
     alert("ingrese texto para encriptar");
     msgOut.value = txtDesencriptado;
+    ilustration.style.display = "none";
     msgIn.value = "";
   }  
   if(/[0-9]/g.test(str)){
     alert("solo letras minúsculas y sin acentos");
     msgIn.value = "";
     msgOut.value = txtDesencriptado;
+    ilustration.style.display = "none";
   }for(let i = 0; i < str.length; i ++){
     if(!/^[a-zA-Z\s]*$/.test(str)){
         alert("solo letras minúsculas y sin acentos");
         msgIn.value = "";
         msgOut.value = txtDesencriptado;
+        ilustration.style.display = "none";
       }else {
         if(str.includes("e")){str = str.replaceAll("e", "enter")}
         if(str.includes("i")){str = str.replaceAll("i", "imes")}
@@ -55,6 +61,7 @@ function botonDesencriptar(){
   const txtDesencriptado = desencriptarMensaje(msgIn.value);
   msgOut.value = txtDesencriptado;
   msgOut.style.display = "flex";
+  ilustration.style.display = "none";
   msgIn.value = "";
 }
 
@@ -63,6 +70,7 @@ function desencriptarMensaje(strEncriptado){
     alert("solo letras minúsculas y sin acentos");
     msgIn.value = "";
     msgOut.value = txtDesencriptado;
+    ilustration.style.display = "none";
   }
   for(let i = 0; i < strEncriptado.length; i ++){
     if(strEncriptado.includes("ufat")){strEncriptado = strEncriptado.replaceAll("ufat", "u")}

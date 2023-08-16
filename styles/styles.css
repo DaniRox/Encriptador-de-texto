@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 18px;
 }
@@ -88,20 +87,20 @@ html body main .title {
   resize: none;
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .input-message .msg-in::-moz-placeholder {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .input-message .msg-in::placeholder {
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .input-message .msg-in:focus-visible {
@@ -136,30 +135,34 @@ html body main .title {
   height: 18rem;
   padding: 1rem;
   margin: 1.5rem 1.5rem 0.5rem;
-  background-image: url(../assets/Muñeco.png);
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: #98DBEE;
   border: none;
   border-radius: 0.8rem;
   resize: none;
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   box-shadow: 0px 0px 18px -2px rgba(74, 74, 74, 0.5) inset, 0px 0px 10px 5px rgba(191, 191, 191, 0.64);
 }
 .output-message .msg-out::-moz-placeholder {
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .output-message .msg-out::placeholder {
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .output-message .msg-out:focus-visible {
   outline: none;
+}
+.output-message .img-munieco {
+  width: 17rem;
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+  display: flex;
+  position: absolute;
 }
 
 .btn {
