@@ -267,9 +267,18 @@ footer .icons-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 footer .icons-footer .icon {
-  height: 1.8rem;
+  height: 1.6rem;
+  margin: 1rem;
+}
+footer .icons-footer .icon-mail {
+  height: 1.4rem;
+  margin: 1rem;
+}
+footer .icons-footer .icon-dr {
+  height: 2rem;
   margin: 1rem;
 }
 footer .txt {
@@ -278,6 +287,8 @@ footer .txt {
   font-weight: 500;
 }
 footer .txt .txt-mention {
-  font-family: "Elsie", cursive;
-  font-size: 1.3rem;
+  color: #000000;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
 }/*# sourceMappingURL=styles.css.map */
