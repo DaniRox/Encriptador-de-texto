@@ -11,7 +11,11 @@ $non-photo-blue: #98DBEE;
 
 
 html{
-    font-size: 17px;
+    font-size: 15px;
+
+    @include media-queries.desktop{
+        font-size: 16px;
+    }
 
     body{
         width: 100vw;
@@ -58,13 +62,14 @@ html{
                 font-size: 2rem;
                 color: $black;
                 text-align: center;
+                margin-top: 1.5rem;
 
                 @include media-queries.desktop-s {
-                    font-size: 2.5rem;
+                    font-size: 2.3rem;
                 }
 
                 @include media-queries.desktop {
-                    font-size: 2.8rem;
+                    font-size: 2.4rem;
                 }
             }
         }
