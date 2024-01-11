@@ -4,7 +4,7 @@
 
 .output-message{
     width: 22rem;
-    height: 27rem;
+    height: 25rem;
     background-color: globals.$white;
     border-radius: 0.8rem;
     margin: 2rem;
@@ -22,7 +22,7 @@
     }
 
     .msg-out{
-        height: 18rem;
+        height: 17rem;
         padding: 1rem;
         margin: 1.5rem 1.5rem 0.5rem;
         background-color: globals.$non-photo-blue;
@@ -49,14 +49,16 @@
         outline: none;
     }
     .img-munieco{
-        width: 12rem;
-        margin-top: 2rem;
+        width: 16rem;
+        margin-top: 3.5rem;
         margin-left: 2rem;
         display: flex;
         position: absolute;
 
         @include media-queries.desktop {
             margin-left: 4rem;
+            width: 12rem;
+            margin-top: 2rem;
         }
     }
 

@@ -7,7 +7,7 @@ html body {
   background-image: url("../assets/background.jpg");
   background-color: #FED403;
   height: 70rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@ html body main .title {
 .input-message {
   font-family: "Darker Grotesque", sans-serif;
   width: 22rem;
-  height: 27rem;
+  height: 25rem;
   background-color: #ffffff;
   border-radius: 0.8rem;
   margin: 2rem;
@@ -132,7 +132,7 @@ html body main .title {
 
 .output-message {
   width: 22rem;
-  height: 27rem;
+  height: 25rem;
   background-color: #ffffff;
   border-radius: 0.8rem;
   margin: 2rem;
@@ -151,7 +151,7 @@ html body main .title {
   }
 }
 .output-message .msg-out {
-  height: 18rem;
+  height: 17rem;
   padding: 1rem;
   margin: 1.5rem 1.5rem 0.5rem;
   background-color: #98DBEE;
@@ -182,8 +182,8 @@ html body main .title {
   outline: none;
 }
 .output-message .img-munieco {
-  width: 12rem;
-  margin-top: 2rem;
+  width: 16rem;
+  margin-top: 3.5rem;
   margin-left: 2rem;
   display: flex;
   position: absolute;
@@ -191,6 +191,8 @@ html body main .title {
 @media screen and (min-width: 1024px) {
   .output-message .img-munieco {
     margin-left: 4rem;
+    width: 12rem;
+    margin-top: 2rem;
   }
 }
 
