@@ -1,13 +1,8 @@
 html {
-  font-size: 15px;
-}
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 16px;
-  }
+  font-size: 16px;
 }
 html body {
-  width: 100vw;
+  width: 100%;
   display: flex;
   background-image: url("../assets/background.jpg");
   background-color: #FED403;
@@ -33,7 +28,7 @@ html body main {
 }
 @media screen and (min-width: 1024px) {
   html body main {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 html body main .logo-alura {
@@ -50,19 +45,14 @@ html body main .logo-alura {
 }
 html body main .title {
   font-family: "Spicy Rice", cursiva;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #000000;
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 768px) {
   html body main .title {
     font-size: 2.3rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  html body main .title {
-    font-size: 2.4rem;
   }
 }
 
@@ -70,7 +60,7 @@ html body main .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  margin: 1rem;
 }
 @media screen and (min-width: 1024px) {
   .container {
@@ -91,8 +81,8 @@ html body main .title {
 }
 @media screen and (min-width: 1024px) {
   .input-message {
-    width: 25rem;
-    height: 24rem;
+    width: 20rem;
+    height: 18rem;
   }
 }
 .input-message .msg-in {
@@ -111,7 +101,7 @@ html body main .title {
 }
 @media screen and (min-width: 1024px) {
   .input-message .msg-in {
-    height: 9rem;
+    height: 32%;
   }
 }
 .input-message .msg-in::-moz-placeholder {
@@ -133,7 +123,7 @@ html body main .title {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
-  margin: 0.6rem 1.5rem;
+  margin: 0rem 1.5rem;
 }
 .input-message span .exclamation-icon {
   width: 1rem;
@@ -156,8 +146,8 @@ html body main .title {
 }
 @media screen and (min-width: 1024px) {
   .output-message {
-    width: 25rem;
-    height: 24rem;
+    width: 20rem;
+    height: 18rem;
   }
 }
 .output-message .msg-out {
@@ -175,7 +165,7 @@ html body main .title {
 }
 @media screen and (min-width: 1024px) {
   .output-message .msg-out {
-    height: 15.4rem;
+    height: 56%;
   }
 }
 .output-message .msg-out::-moz-placeholder {
@@ -192,8 +182,8 @@ html body main .title {
   outline: none;
 }
 .output-message .img-munieco {
-  width: 17rem;
-  margin-top: 3.5rem;
+  width: 12rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   display: flex;
   position: absolute;
@@ -205,12 +195,13 @@ html body main .title {
 }
 
 .btn {
-  height: 3rem;
+  height: 2.4rem;
   background-color: #FED403;
   border-radius: 0.8rem;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
+  letter-spacing: 0.1rem;
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
@@ -232,12 +223,13 @@ html body main .title {
   justify-content: space-between;
 }
 .buttons .btn-m {
-  height: 3rem;
+  height: 2.4rem;
   background-color: #FED403;
   border-radius: 0.8rem;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
+  letter-spacing: 0.1rem;
   color: #000000;
   font-family: "Darker Grotesque", sans-serif;
   box-shadow: 0px 0px 8px 2px rgb(173, 151, 36) inset;
