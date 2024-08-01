@@ -28,7 +28,7 @@ html body main {
 }
 @media screen and (min-width: 1024px) {
   html body main {
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 }
 html body main .logo-alura {
