@@ -16,7 +16,7 @@ html body {
 }
 @media screen and (min-width: 1024px) {
   html body {
-    margin-top: 0rem;
+    margin-top: 6rem;
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
@@ -250,11 +250,13 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  bottom: 1rem;
+  position: relative;
 }
 @media screen and (min-width: 1024px) {
   footer {
-    position: relative;
-    bottom: -1rem;
+    position: fixed;
+    bottom: 2rem;
   }
 }
 footer .icons-footer {

@@ -6,10 +6,12 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 1rem;
+    position: relative;
 
     @include media-queries.desktop {
-        position: relative;
-        bottom: -1rem;
+        position: fixed;
+        bottom: 2rem;
     }
 
 
